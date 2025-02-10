@@ -2,6 +2,8 @@
 
 Ce modèle de projet Django est conçu pour créer rapidement des projets Wagtail, destiné aux développeurs souhaitant amorcer le développement de leur site Wagtail à l’aide de la commande `wagtail start --template=`. Le modèle inclut des pages, des blocs, des fonctionnalités et des fixtures prédéfinis pour simplifier le processus de configuration initiale.
 
+**Note** : Ce template a été modifié pour être utilisé comme API grâce à `api/v2` de Wagtail. Vous pouvez accéder à l'API à l'adresse `/api/v2/pages` de votre site.
+
 ## Guide de démarrage
 
 1. **Vérifiez que vous avez une version de Python compatible**  Commencez par vérifier que vous avez [version de python compatible](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions) installée sur votre ordinateur:
